@@ -1,0 +1,19 @@
+{
+  "name": "find-history",
+  "version": "1.0.0",
+  "description": "A tool for determining which user profile in chrome has been used most recently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "history",
+    "chrome",
+    "profile"
+  ],
+  "author": "John E. Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "nodejs-iterator": "file:///C:\\Users\\andersj5\\Desktop\\Programming\\Node\\ADServer\\custom modules\\nodejs-iterator"
+  }
+}
