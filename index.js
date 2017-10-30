@@ -1,6 +1,11 @@
 var fs = require("fs");
 var iterate = require('nodejs-iterator');
 
+/**
+* computer(String) name of computer to target
+* user(String) Name of the user profile on target computer
+* cb (function) callback after account found
+*/
 function findHistory(computer,user,cb){
     var greatest = {   
         mtime:"",
